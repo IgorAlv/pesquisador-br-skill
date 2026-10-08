@@ -6,6 +6,22 @@ O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/), e o
 
 ---
 
+## [0.3.0] — 2026-10-08
+
+### ✨ Novas ferramentas do MCP `pesquisa` nas skills
+
+- `bdtd_search`: teses e dissertações direto da BDTD/IBICT, com total para o PRISMA.
+  `busca_bdtd.py` fica como alternativa sem MCP.
+- `importar_ris`: importa buscas feitas no navegador e exportadas em RIS (SciELO, Scopus,
+  Zotero...), com deduplicação.
+- `scielo_search` agora traz `total` e indica a fonte usada (`source`/`note`).
+
+### 🐛 Correções
+
+- Skills indicam onde ficam os scripts (`../../scripts/` a partir da skill).
+
+---
+
 ## [0.2.0] — 2026-10-08
 
 ### ✨ Integração opcional com o servidor MCP `pesquisa`

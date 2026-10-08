@@ -1,7 +1,7 @@
 ---
 name: revisao-sistematica-br
 description: Conduz revisão sistemática brasileira seguindo PRISMA-PT, ou revisão integrativa modelo Botelho et al. Aciona quando usuário pede "revisão sistemática", "PRISMA", "revisão integrativa", "metanálise" no contexto brasileiro.
-version: 0.2.0
+version: 0.3.0
 language: pt-BR
 related_skills:
   - pesquisador-br
@@ -130,10 +130,11 @@ AND ("higher education"[MeSH])
 
 Se as ferramentas `mcp__pesquisa__*` estiverem disponíveis, rode as strings do protocolo
 nelas (guia: `../pesquisador-br/references/plataformas/mcp-pesquisa.md`):
-- SciELO: `scielo_search` (some as páginas para obter o total; a ferramenta não informa)
+- SciELO: `scielo_search` (retorna `total`; registre também `source`/`note`, que dizem se foi usado plano B)
 - Scopus: `scopus_search` (retorna `total`)
 - OpenAlex: `openalex_search` (retorna `total`; use `country="BR"` para recorte nacional)
-- BDTD: `scripts/busca_bdtd.py`, na raiz do plugin (`../../scripts/` a partir do diretório base desta skill)
+- BDTD: `bdtd_search` (retorna `total`). Sem o MCP: `scripts/busca_bdtd.py`, na raiz do plugin (`../../scripts/` a partir do diretório base desta skill)
+- Buscas feitas no navegador e exportadas em RIS: `importar_ris` (retorna `total_records` e `duplicates_removed`)
 
 Para cada busca, registre no protocolo **base, string exata, filtros, data e total**: esses
 números alimentam a fase de Identificação do diagrama PRISMA. Deduplique por DOI e
