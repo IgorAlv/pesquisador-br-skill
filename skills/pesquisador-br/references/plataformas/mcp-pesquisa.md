@@ -39,6 +39,9 @@ pesquisador(a)** que a busca foi manual.
 
 ## Mapeamento base → ferramenta
 
+Os scripts citados abaixo ficam na raiz do plugin (`../../scripts/` a partir do diretório
+base da skill `pesquisador-br`), não na pasta da skill. Ver "Onde ficam os scripts" no SKILL.md.
+
 | Base do pipeline | Com MCP | Sem MCP |
 |---|---|---|
 | SciELO Brasil | `scielo_search` | `scripts/busca_scielo.py` ou busca manual |
