@@ -43,7 +43,8 @@ Etapa 1 nelas (detalhes em `references/plataformas/mcp-pesquisa.md`):
 | SciELO Brasil | `scielo_search(query, collection="scl", years="AAAA-AAAA")` |
 | Produção BR em outras editoras | `openalex_search(query, country="BR", year_from=..., year_to=...)` |
 | Scopus (Periódicos CAPES) | `scopus_search('TITLE-ABS-KEY(...) AND PUBYEAR > AAAA')` |
-| BDTD | `scripts/busca_bdtd.py` na raiz do plugin (`../../scripts/` a partir da skill; o MCP não cobre teses) |
+| BDTD | `bdtd_search(query, year_from=..., year_to=...)` (sem MCP: `scripts/busca_bdtd.py`, na raiz do plugin) |
+| Busca feita no navegador e exportada em RIS | `importar_ris(path=...)` |
 
 - Ordene por citações (`cited` / `-citedby-count`) para achar os clássicos e por data
   (`recent` / `-coverDate`) para o estado atual.

@@ -17,6 +17,8 @@ pesquisador(a)** que a busca foi manual.
 | Ferramenta | Base | Chave | Use para |
 |---|---|---|---|
 | `scielo_search` | SciELO (coleção BR por padrão) | nenhuma | Produção brasileira e latino-americana em acesso aberto |
+| `bdtd_search` | BDTD/IBICT | nenhuma | Teses e dissertações brasileiras |
+| `importar_ris` | Arquivo RIS do(a) pesquisador(a) | nenhuma | Buscas feitas no navegador (SciELO, Scopus, Zotero...) |
 | `openalex_search` | OpenAlex (~250M trabalhos) | `OPENALEX_API_KEY` (opcional) | Cobertura ampla; filtro `country="BR"`; link de acesso aberto |
 | `openalex_work` | OpenAlex | idem | Conferir uma referência por DOI e completar metadados |
 | `scopus_search` | Scopus | `ELSEVIER_API_KEY` | Literatura internacional curada e contagem de citações |
@@ -27,10 +29,17 @@ pesquisador(a)** que a busca foi manual.
 ### Parâmetros úteis
 
 - `scielo_search(query, collection="scl", years="2018-2026", language="pt", sort="relevance"|"recent"|"cited", count=25, page=1)`
-  - `query` aceita `AND`/`OR`/aspas e campos `ti:(...)`, `ab:(...)`.
-  - `collection=None` busca em todas as coleções (Portugal, México, Saúde Pública etc.).
-  - Traz resumo, palavras-chave, DOI, link do texto (`url`) e do PDF. **Não traz o total
-    de resultados**: para o PRISMA, some as páginas até a lista acabar.
+  - `query` em texto livre (sem campos `ti:`/`ab:`); a busca é feita no OpenAlex, filtrado
+    pela lista oficial de periódicos da coleção (API ArticleMeta do SciELO).
+  - `collection=None` busca em todas as coleções (Portugal, México, Saúde Pública etc.; mais lento).
+  - Traz `total`, resumo, citações, DOI, link do artigo (`url`) e do PDF. O campo `source`
+    diz qual fonte respondeu e `note` avisa quando foi usado um plano B (site do SciELO ou
+    Crossref): registre isso no protocolo.
+- `bdtd_search(query, year_from=2018, year_to=2026, field="AllFields"|"Title"|"Subject", sort="relevance"|"recent", limit=25, page=1)`
+  - Retorna `total`, título, autor, ano, `level` (dissertação/tese), instituição, resumo e links.
+- `importar_ris(path="C:\Users\...\export.ris")` ou `importar_ris(content="...")`
+  - Para buscas que o(a) pesquisador(a) fez no navegador e exportou em RIS. Retorna
+    `total_records`, `duplicates_removed` (para o PRISMA) e os registros únicos.
 - `openalex_search(query, year_from, year_to, country="BR", open_access=True, sort="relevance"|"cited"|"recent", per_page=25)`
   - Retorna `total`, resumo (500 caracteres) e `oa_url`.
 - `scopus_search(query, sort="relevancy"|"-citedby-count"|"-coverDate", count=25)`
@@ -48,7 +57,8 @@ base da skill `pesquisador-br`), não na pasta da skill. Ver "Onde ficam os scri
 | Periódicos CAPES (Scopus/Elsevier) | `scopus_search`, `sciencedirect_search` | busca manual via CAFe |
 | Produção BR em outras editoras | `openalex_search(country="BR")` | Google Scholar manual |
 | Semantic Scholar / CrossRef (complementar) | `openalex_search`, `openalex_work` | `scripts/doi_para_referencia.py` |
-| **BDTD** (teses e dissertações) | — | `scripts/busca_bdtd.py` (o MCP não cobre) |
+| **BDTD** (teses e dissertações) | `bdtd_search` | `scripts/busca_bdtd.py` (usa repositórios via OAI-PMH, não a BDTD inteira) |
+| Busca manual exportada (RIS) | `importar_ris` | ler o arquivo e conferir à mão |
 | **Qualis** | — | `scripts/verifica_qualis.py` + Sucupira (o MCP não cobre) |
 
 ## Regras

@@ -1,7 +1,7 @@
 ---
 name: pesquisador-br
 description: Pipeline completo de pesquisa acadêmica brasileira. Aciona quando o usuário menciona ABNT, TCC, dissertação, tese, artigo científico em português, Qualis CAPES, SciELO, Lattes, ou pede ajuda pra escrever, revisar ou estruturar trabalho acadêmico no padrão brasileiro. Esta é a skill principal — orquestra os 12 agentes especializados.
-version: 0.2.0
+version: 0.3.0
 language: pt-BR
 data_access_level: redacted
 task_type: open-ended
@@ -124,7 +124,9 @@ de busca e de verificação**. Guia completo: `references/plataformas/mcp-pesqui
 
 - **Busca (etapa 2):** `scielo_search` (coleção BR) + `openalex_search(country="BR")`
   para o recorte nacional; `scopus_search` para o contexto internacional.
-- **Continua com os scripts:** BDTD (`busca_bdtd.py`) e Qualis (`verifica_qualis.py`),
+- **Teses e dissertações:** `bdtd_search` (BDTD/IBICT). Use `busca_bdtd.py` só sem o MCP.
+- **Buscas manuais exportadas em RIS:** `importar_ris` (deduplica e conta para o PRISMA).
+- **Continua com os scripts:** Qualis (`verifica_qualis.py`),
   que o MCP não cobre.
 - **Verificação (etapas 6 e 7):** toda referência com DOI é conferida com
   `openalex_work` (ou `abstract`) antes de passar no integrity gate.
