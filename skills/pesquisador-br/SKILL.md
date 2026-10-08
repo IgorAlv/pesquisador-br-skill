@@ -137,6 +137,24 @@ de busca e de verificação**. Guia completo: `references/plataformas/mcp-pesqui
 
 ---
 
+## 🐍 Onde ficam os scripts
+
+Os scripts Python ficam na **raiz do plugin**, em `scripts/`, e **não** dentro da pasta
+desta skill. A partir do diretório base desta skill (informado quando ela é carregada),
+o caminho é `../../scripts/`. Exemplos (troque `<base>` pelo diretório base da skill):
+
+```bash
+python "<base>/../../scripts/busca_bdtd.py" PNAES evasão --desde 2018 --abnt
+python "<base>/../../scripts/verifica_qualis.py" --issn 1413-2478 --area Educação
+python "<base>/../../scripts/doi_para_referencia.py" 10.1590/xxxx
+python "<base>/../../scripts/valida_referencias.py" referencias.txt
+```
+
+Se um script falhar (rede, endpoint fora do ar), diga ao(à) pesquisador(a) qual base ficou
+sem consulta, em vez de pular a etapa em silêncio.
+
+---
+
 ## 🤝 Agentes especializados
 
 Você **delega** pra agentes específicos via descrição. Não tente fazer tudo sozinho.

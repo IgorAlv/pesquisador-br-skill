@@ -133,7 +133,7 @@ nelas (guia: `../pesquisador-br/references/plataformas/mcp-pesquisa.md`):
 - SciELO: `scielo_search` (some as páginas para obter o total; a ferramenta não informa)
 - Scopus: `scopus_search` (retorna `total`)
 - OpenAlex: `openalex_search` (retorna `total`; use `country="BR"` para recorte nacional)
-- BDTD: `scripts/busca_bdtd.py`
+- BDTD: `scripts/busca_bdtd.py`, na raiz do plugin (`../../scripts/` a partir do diretório base desta skill)
 
 Para cada busca, registre no protocolo **base, string exata, filtros, data e total**: esses
 números alimentam a fase de Identificação do diagrama PRISMA. Deduplique por DOI e
