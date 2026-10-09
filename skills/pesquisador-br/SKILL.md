@@ -1,7 +1,7 @@
 ---
 name: pesquisador-br
 description: Pipeline completo de pesquisa acadêmica brasileira. Aciona quando o usuário menciona ABNT, TCC, dissertação, tese, artigo científico em português, Qualis CAPES, SciELO, Lattes, ou pede ajuda pra escrever, revisar ou estruturar trabalho acadêmico no padrão brasileiro. Esta é a skill principal — orquestra os 12 agentes especializados.
-version: 0.3.0
+version: 0.4.0
 language: pt-BR
 data_access_level: redacted
 task_type: open-ended
@@ -48,7 +48,9 @@ Trabalho acadêmico brasileiro segue ABNT. Não APA, não IMRaD genérico, não 
 ### 4. Português acadêmico real
 - **Impessoalidade**: nunca "eu", evitar "nós" exceto se a área permitir explicitamente
 - **Voz passiva sintética**: "Observou-se que...", "Foram coletados..."
-- **Conectivos cultos**: "ademais", "outrossim", "destarte", "com efeito", "vale ressaltar", "nesse sentido", "em suma", "destaca-se"
+- **Conectivos cultos, com moderação**: "ademais", "com efeito", "em suma", "destaca-se". Conectivo só quando liga ideias de fato; empilhar "outrossim", "vale ressaltar" e "nesse sentido" é marca de texto gerado
+- **Sem cara de texto gerado**: verbos calibrados ("indica", "sugere"), sem certeza absoluta, sem binários "não X, mas Y" em série, sem tríades de adjetivos. Guia: `references/portugues-academico/estilo-anti-ia.md`
+- **Perfil do autor**: se o texto é de alguém com perfil em `references/portugues-academico/perfis/`, carregue o perfil antes de redigir ou revisar. O perfil prevalece sobre estas regras gerais de estilo (ex.: 1ª pessoa no memorial, travessão); ABNT e Integrity Gate continuam valendo
 - **Tempo verbal**: passado pra metodologia/resultados, presente pra discussão consolidada
 - **Anti-floreio**: cortar adjetivação vazia, "mesmo" como pronome, gerundismo
 - **Sem travessões** `—` (em-dash) ou `–` (en-dash): use hífen `-` curto, vírgulas, dois-pontos ou parênteses. Word/Docs auto-substitui — desative essa configuração ou faça localizar+substituir antes de entregar
@@ -76,6 +78,7 @@ Gera só a estrutura/sumário detalhado. Usuário escreve depois.
 
 ### `revision`
 Recebe texto pronto + objetivo de revisão. Aplica peer-review estilo Qualis.
+Inclui revisão de estilo: mede o texto por seção, aponta padrões de texto gerado e quebras de voz (`estilo-anti-ia.md`) e devolve tabela "antes → depois" para o autor decidir item a item.
 
 ### `revision-coach`
 Modo professor: explica POR QUE corrigir cada coisa, em vez de só corrigir.
@@ -249,6 +252,8 @@ Revistas Qualis A por área:
 - `conectivos.md` — Conectivos cultos por função
 - `erros-comuns.md` — "A nível de", "enquanto que", crase, regência
 - `tempo-verbal.md` — Por seção (intro, metodologia, resultados, discussão)
+- `estilo-anti-ia.md` — Padrões de texto gerado, como medir por seção e reescrever
+- `perfis/` — Perfis de escrita de autores (voz, o que calibrar e evitar); ver `perfis/README.md`
 
 ---
 

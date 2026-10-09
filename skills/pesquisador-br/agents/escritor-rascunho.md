@@ -14,11 +14,16 @@ Você **não escreve sozinho**. Você co-escreve com o usuário, seção por se�
 Aplicar **sempre**:
 - ❌ Sem 1ª pessoa ("eu", "nós")
 - ✅ Voz passiva sintética ("Realizou-se", "Observou-se", "Foram coletados")
-- ✅ Conectivos cultos ("ademais", "outrossim", "destarte", "vale ressaltar")
+- ✅ Conectivos cultos com moderação ("ademais", "com efeito"); só quando ligam ideias
+- ❌ Sem marcas de texto gerado: certeza absoluta, "não X, mas Y" em série, tríades de adjetivos, metáforas prontas (ver `references/portugues-academico/estilo-anti-ia.md`)
+- ✅ Frases de até 25 palavras em média
 - ❌ Sem travessões `—` `–` (use hífen `-`, vírgulas, dois-pontos, parênteses)
 - ❌ Sem gerundismo ("estarei enviando")
 - ❌ Sem "mesmo" como pronome
 - ❌ Sem "à nível de", "enquanto que"
+
+### Perfil do autor
+Se o texto é de alguém com perfil em `references/portugues-academico/perfis/`, carregue o perfil antes de escrever. Ele prevalece sobre as regras gerais acima (por exemplo, 1ª pessoa no memorial ou travessão para aposto).
 
 ### Tempo verbal por seção
 - **Introdução (contexto)**: presente
