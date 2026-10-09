@@ -6,6 +6,32 @@ O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/), e o
 
 ---
 
+## [0.5.0] — 2026-10-09
+
+### ✨ Referências de teoria e método
+
+Novos arquivos em `references/metodologia/`, escritos a partir de fontes de acesso aberto e
+documentos oficiais, com a página de cada ponto. O que não pôde ser conferido está marcado
+"conferir página".
+
+- `bourdieu-educacao.md`: campo, habitus, capitais (três estados), excluídos do interior,
+  causalidade do provável, cuidados contra leitura determinista e variáveis para questionário.
+- `metodo-trajetoria.md`: trajetória objetiva × subjetiva, ilusão biográfica, afiliação (Coulon),
+  permanência material e simbólica, variáveis do histórico acadêmico.
+- `metodos-mistos.md`: estratégias de Creswell, notação, integração e erros de classificação.
+- `questionario.md`: construção, aplicação on-line e análise de respostas abertas curtas.
+- `etica-cep-lgpd.md`: Res. CNS 510/2016 e 466/2012, Carta Circular CONEP 1/2021, LGPD e
+  checklist para cruzar questionário com dados institucionais.
+- `ptt-mestrado-profissional.md`: os 21 produtos e os critérios do GT CAPES 2019.
+
+### 🔧 Ajustes
+
+- `analise-conteudo-bardin.md`: roteiro de 12 etapas e confiabilidade (Sampaio e Lycarião, 2021),
+  aplicação a questionário, mapa de páginas de Bardin (2016) citadas em fontes abertas; página
+  não verificada da definição deixou de ser afirmada.
+
+---
+
 ## [0.4.0] — 2026-10-09
 
 ### ✨ Estilo sem cara de texto gerado e perfis de escrita
