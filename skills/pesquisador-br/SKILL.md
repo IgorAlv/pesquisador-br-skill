@@ -1,7 +1,7 @@
 ---
 name: pesquisador-br
 description: Pipeline completo de pesquisa acadêmica brasileira. Aciona quando o usuário menciona ABNT, TCC, dissertação, tese, artigo científico em português, Qualis CAPES, SciELO, Lattes, ou pede ajuda pra escrever, revisar ou estruturar trabalho acadêmico no padrão brasileiro. Esta é a skill principal — orquestra os 12 agentes especializados.
-version: 0.4.0
+version: 0.5.0
 language: pt-BR
 data_access_level: redacted
 task_type: open-ended
@@ -236,6 +236,12 @@ LaTeX em `templates/latex/`:
 - `prisma-pt.md` — PRISMA traduzido
 - `analise-conteudo-bardin.md` — Pré-análise, exploração, tratamento
 - `revisao-integrativa-botelho.md`
+- `bourdieu-educacao.md` — Campo, habitus, capitais, excluídos do interior; fonte e página de cada conceito; operacionalização
+- `metodo-trajetoria.md` — Trajetória objetiva × subjetiva, afiliação (Coulon), permanência material e simbólica
+- `metodos-mistos.md` — Desenhos de Creswell, notação, integração (joint display), erros comuns
+- `questionario.md` — Construção, aplicação on-line e análise de respostas abertas
+- `etica-cep-lgpd.md` — CEP (Res. 510 e 466), Carta Circular CONEP 1/2021, LGPD, cruzamento com dados institucionais
+- `ptt-mestrado-profissional.md` — Os 21 produtos e os critérios da CAPES; como enquadrar e descrever o PTT
 
 ### `references/revistas/`
 Revistas Qualis A por área:

@@ -1,12 +1,14 @@
 # Análise de Conteúdo (Bardin)
 
-> Método clássico de análise qualitativa de textos, com **3 fases** estruturadas. Referência: **BARDIN, Laurence. *Análise de conteúdo*. São Paulo: Edições 70, 2011** (1ª ed. 1977 em francês).
+> Método clássico de análise qualitativa de textos, com **3 fases** estruturadas. Referência: **BARDIN, Laurence. *Análise de conteúdo*. São Paulo: Edições 70, 2011 ou 2016** (1ª ed. 1977 em francês).
+>
+> **Páginas:** a paginação muda entre as edições de 2011 e 2016. As páginas de 2016 citadas por fontes abertas estão no "Mapa de páginas" ao fim deste arquivo; confira sempre no exemplar usado pelo usuário antes de citar.
 
 ## Definição
 
 > "Conjunto de técnicas de análise das comunicações, visando obter, por procedimentos sistemáticos e objetivos de descrição do conteúdo das mensagens, indicadores que permitam a inferência de conhecimentos relativos às condições de produção/recepção dessas mensagens."
 >
-> — Bardin (2011, p. 47)
+> — Bardin (conferir página na edição usada)
 
 ---
 
@@ -60,12 +62,12 @@ Critérios:
 
 #### 2.2 Categorização
 
-Princípios (Bardin, 2011):
+Princípios (Bardin, 2016, p. 150, citado por Dalla Valle; Ferreira, 2025, p. 10):
 1. **Exclusão mútua**: cada item numa categoria só
 2. **Homogeneidade**: critério único por categoria
 3. **Pertinência**: relacionado aos objetivos
 4. **Objetividade e fidelidade**: outro pesquisador chegaria às mesmas categorias
-5. **Produtividade**: gera resultados ricos
+5. **Produtividade**: gera resultados ricos (citada em manuais brasileiros; não aparece na lista de Bardin, 2016, p. 150, segundo Dalla Valle e Ferreira, 2025; conferir no exemplar)
 
 Categorias podem ser:
 - **A priori** (definidas antes, baseadas em teoria)
@@ -188,9 +190,10 @@ Pra fortalecer validade, triangule:
 
 ### Confiabilidade (reliability)
 - **Inter-codificador**: 2+ codificam, mede concordância
-  - Kappa de Cohen (>0.7 aceitável)
-  - Alpha de Krippendorff
-- **Intra-codificador**: o mesmo pesquisador codifica de novo depois (>0.8)
+  - Alfa de Krippendorff (preferível: qualquer número de codificadores e tipo de variável); kappa de Cohen só para 2 codificadores, Fleiss para mais
+  - Referência: > 0,8 suficiente; > 0,9 muito confiável; 0,667-0,8 só para variáveis em teste (Sampaio; Lycarião, 2021, p. 91)
+  - Porcentagem simples de concordância não basta (p. 90); relatar por variável, sem média (p. 98)
+- **Intra-codificador** (pesquisador sozinho): recodificar 10% do material, mínimo de 50 unidades, após uma semana ou mais, com α > 0,9 (p. 100-102)
 
 ---
 
@@ -202,7 +205,10 @@ Pra fortalecer validade, triangule:
 ❌ **Frequência sem interpretação** (só "20 vezes" sem explicar)
 ❌ Categorias sem **definição operacional**
 ❌ Misturar Bardin com **outros métodos** sem declarar
-❌ Sem **citação a Bardin (2011)** na metodologia
+❌ Sem **citação a Bardin** na metodologia, ou citação com página de outra edição
+❌ Sem **livro de códigos** (Sampaio; Lycarião, 2021, p. 58)
+❌ Unidade de análise não declarada (p. 51)
+❌ "Outros" grande demais (deve ser residual, p. 61)
 ❌ Não fazer **inferência** (etapa 3.2)
 ❌ **Codificação solo** sem revisão (sem confiabilidade inter-codificadores)
 
@@ -232,8 +238,66 @@ Pra fortalecer validade, triangule:
 
 ## Recursos
 
-- BARDIN, Laurence. *Análise de conteúdo*. São Paulo: Edições 70, 2011.
+- BARDIN, Laurence. *Análise de conteúdo*. São Paulo: Edições 70, 2016.
+- SAMPAIO, Rafael Cardoso; LYCARIÃO, Diógenes. *Análise de conteúdo categorial*: manual de aplicação. Brasília: Enap, 2021. (Acesso aberto; CC BY-NC-SA.)
+- DALLA VALLE, Paulo Roberto; FERREIRA, Jacques de Lima. Análise de conteúdo na perspectiva de Bardin: contribuições e limitações para a pesquisa qualitativa em educação. *Educação em Revista*, Belo Horizonte, v. 41, e49377, 2025. DOI: 10.1590/0102-469849377.
 - MINAYO, M. C. S. *O desafio do conhecimento*. São Paulo: Hucitec, 2014.
 - BAUER, M. & GASKELL, G. *Pesquisa qualitativa com texto, imagem e som*. Petrópolis: Vozes, 2017.
 - [IRAMUTEQ](http://www.iramuteq.org)
 - [Tutorial NVivo](https://lumivero.com/products/nvivo)
+
+---
+
+## Roteiro operacional (Sampaio; Lycarião, 2021)
+
+O manual critica a redução da análise às três fases de Bardin, porque quase todo o desenho fica
+escondido na 2ª fase (p. 46-47), e propõe 12 etapas (p. 49):
+
+1. Problema (revisão de literatura). 2. Questões e hipóteses.
+3. Unidades de análise. 4. Categorias: livro de códigos e planilha de codificação.
+5. Amostragem. 6. Pré-teste: treinamento, revisão do livro de códigos, teste-piloto.
+7. Treinamento final e teste de confiabilidade. 8. Codificação.
+9. Testes intermediário e final. 10. Tabulação e estatística.
+11. Interpretação e relato. 12. Validação e replicabilidade.
+
+**Unidades** (p. 51-56): amostral (o que se amostra), de análise (o que se classifica) e de
+contexto (quanto o codificador lê para decidir). Contexto maior ganha validade e perde
+confiabilidade.
+
+**Regras das categorias** (p. 59-63): exclusivas, exaustivas e homogêneas, nesta ordem de
+importância. Valem também para os códigos dentro de cada categoria.
+
+**Livro de códigos** (p. 63-67): para cada código, nome, descrição breve, definição completa,
+quando aplicar, quando não aplicar e exemplos. Numerar categorias e códigos. Codificar em
+planilha.
+
+**Pré-teste** (p. 79-86): pilotos com no mínimo 10 unidades heterogêneas, comparação das
+divergências, revisão do livro de códigos, repetição. Começar com três codificadores, se possível.
+
+**Teste final** (p. 105): amostra aleatória de 10%, mínimo de 50 unidades; alfa de Krippendorff
+por variável (ReCal, dfreelon.org).
+
+## Aplicação a respostas abertas curtas de questionário
+
+- Unidade de análise e de contexto: a resposta inteira.
+- Categorias a priori (teoria) mais emergentes.
+- Resposta com vários temas: uma variável binária (presente/ausente) por categoria, para manter a
+  exclusão mútua e não passar de 100%.
+- Frequência com denominador explícito; frequência não equivale a importância (Palú; Petry, 2022,
+  citado por Dalla Valle; Ferreira, 2025, p. 14). Interpretar com trechos curtos e anônimos.
+
+## Mapa de páginas de Bardin (2016) citadas em fontes abertas
+
+Conferir no exemplar antes de citar; servem como pista.
+
+| Ponto | Bardin (2016) | Citado por |
+|---|---|---|
+| Pré-análise: organização do material | p. 125 | Dalla Valle; Ferreira, 2025, p. 8 |
+| Leitura flutuante | p. 126 | idem |
+| Regras do corpus (exaustividade, representatividade, homogeneidade, pertinência) | p. 126-127 | idem; Sampaio; Lycarião, 2021, p. 61 |
+| Hipóteses | p. 128 | Dalla Valle; Ferreira, 2025, p. 9 |
+| Codificação (definição de Holsti) | p. 133 | Sampaio; Lycarião, 2021, p. 45 |
+| Unidade de contexto, "dimensão ótima" | p. 134 | Sampaio; Lycarião, 2021, p. 56 |
+| Categorização: diferenciação e reagrupamento | p. 147 | Dalla Valle; Ferreira, 2025, p. 10 |
+| Qualidades das categorias | p. 150 | idem; Sampaio; Lycarião, 2021, p. 88 |
+| Inferência: emissor, receptor, mensagem, canal | p. 165-166 | Dalla Valle; Ferreira, 2025, p. 10; Sampaio; Lycarião, 2021, p. 108 |

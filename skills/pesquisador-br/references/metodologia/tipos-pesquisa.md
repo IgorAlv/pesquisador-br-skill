@@ -61,6 +61,8 @@ A pesquisa pode ser classificada em **4 eixos** simultâneos. Toda pesquisa pert
 **Exemplos**: entrevista narrativa, etnografia, análise de discurso, estudo de caso aprofundado
 
 ### Mista (mixed methods)
+
+> Desenhos, notação e integração: ver `metodos-mistos.md`.
 - Combina quanti + quali
 - Padrões: convergente, sequencial explanatória, sequencial exploratória
 - Triangulação
