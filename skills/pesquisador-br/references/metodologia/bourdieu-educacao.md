@@ -22,7 +22,8 @@
 | Habitus | Disposições para agir, incorporadas na socialização e típicas de uma posição social. Orientam a ação de forma adaptável, não como regra rígida; mediação entre estrutura e agente | Nogueira; Nogueira, 2002, p. 19-20 | *Esboço de uma teoria da prática*; *O senso prático* (conferir página) |
 | Senso prático | A ação resulta de um cálculo prático, nem mecânico nem de escolha racional livre | Bonamino et al., 2010, p. 490 | *Razões práticas*, 1997, p. 50 (citado pela fonte) |
 | Espaço social | Posições definidas pelo volume e pela composição dos capitais; campo de lutas em que grupos traçam estratégias para manter ou melhorar a posição | Nogueira; Nogueira, 2002, p. 22; Bonamino et al., 2010, p. 488 | *O poder simbólico*; *Razões práticas* (conferir página) |
-| Campo | Espaço relativamente autônomo de posições e disputas por um capital específico, com regras e crenças próprias (*illusio*) | (conferir página: Thiry-Cherques, 2006, e Montagner, 2007, não lidos ainda) | "Algumas propriedades dos campos", em *Questões de sociologia*; "A gênese dos conceitos de habitus e de campo", em *O poder simbólico* (conferir página) |
+| Campo | Microcosmo social relativamente autônomo, com lógica própria. É ao mesmo tempo campo de forças, que constrange os agentes, e campo de lutas, em que eles conservam ou transformam a estrutura conforme a posição; disputa-se um capital específico | Thiry-Cherques, 2006, p. 35-38 | *Razões práticas* (1996, p. 48, 50); *Questions de sociologie* (1984, p. 113-114, 197); *Choses dites* (1987, p. 32), citados pela fonte (conferir no exemplar) |
+| *Illusio*, doxa e nomos | Doxa: o que todos no campo aceitam como evidente. Nomos: leis de funcionamento próprias do campo. *Illusio*: adesão encantada, não consciente, ao jogo do campo, que ajusta as esperanças ao que ele oferece | Thiry-Cherques, 2006, p. 37-38 | *Questions de sociologie* (1984, p. 82); *Meditações pascalianas* (2001, p. 111 e segs.), citados pela fonte |
 | Capital econômico | Bens e serviços a que dá acesso | Nogueira; Nogueira, 2002, p. 21; Bonamino et al., 2010, p. 488 | — |
 | Capital social | Recursos ligados a uma rede durável de relações; o volume depende da extensão da rede e do capital dos membros | Bonamino et al., 2010, p. 489; Nogueira; Nogueira, 2002, p. 21-22 | "O capital social: notas provisórias", em *Escritos de educação* (citado por Bonamino et al.) |
 | Capital cultural incorporado | Disposições duráveis (gostos, língua culta, informação sobre o sistema escolar), adquiridas por inculcação longa; o de maior peso no destino escolar | Nogueira; Nogueira, 2002, p. 21; Bonamino et al., 2010, p. 492 | "Os três estados do capital cultural", em *Escritos de educação* |
@@ -44,6 +45,11 @@
   educacional, o meio e a religiosidade (Percheron, citada em Nogueira; Nogueira, 2002, p. 26) e
   a dinâmica interna da família (Lahire e Singly, citados na p. 27).
 - A reprodução vale como tendência entre classes, não como destino de cada caso (p. 33-35).
+- O habitus é relativamente autônomo: fica entre o inconsciente condicionado e o intencional
+  calculado e deixa ao agente a margem que as regras do campo permitem (Thiry-Cherques, 2006,
+  p. 34).
+- A relação entre condição social e escolha de carreira é tendencial, não absoluta; trajetórias
+  longas dependeram também da mobilização do próprio estudante (Zago, 2006, p. 232).
 - O êxito improvável existe e é construído: estudantes sem o capital esperado concluíram por
   trabalho autônomo, bolsas e redes (Ganam; Pinezi, 2021, p. 15-16). Clássico: Lahire,
   *Sucesso escolar nos meios populares* (1997).
@@ -85,14 +91,17 @@ estudantil. **Educação em Revista**, Belo Horizonte, v. 37, e228757, 2021. DOI
 10.1590/0102-4698228757.
 
 MONTAGNER, Miguel Ângelo. Trajetórias e biografias: notas para uma análise bourdieusiana.
-**Sociologias**, Porto Alegre, n. 17, p. 240-264, jun. 2007. DOI: 10.1590/S1517-45222007000100010.
+**Sociologias**, Porto Alegre, ano 9, n. 17, p. 240-264, jan./jun. 2007. DOI:
+10.1590/S1517-45222007000100010.
 
 NOGUEIRA, Cláudio Marques Martins; NOGUEIRA, Maria Alice. A sociologia da educação de Pierre
 Bourdieu: limites e contribuições. **Educação & Sociedade**, Campinas, v. 23, n. 78, p. 15-35, abr.
 2002. DOI: 10.1590/S0101-73302002000200003.
 
 THIRY-CHERQUES, Hermano Roberto. Pierre Bourdieu: a teoria na prática. **Revista de Administração
-Pública**, Rio de Janeiro, v. 40, n. 1, p. 27-53, fev. 2006. DOI: 10.1590/S0034-76122006000100003.
+Pública**, Rio de Janeiro, v. 40, n. 1, p. 27-53, jan./fev. 2006. DOI:
+10.1590/S0034-76122006000100003. (O rodapé do PDF traz "27-55", mas o texto termina na p. 53 e o
+Crossref registra 27-53.)
 
 Obras primárias (citar só após conferir no exemplar):
 - BOURDIEU, Pierre. **Escritos de educação**. Organização de Maria Alice Nogueira e Afrânio Catani.

@@ -5,16 +5,36 @@
 
 ## Conceitos
 
-- **Trajetória como série de posições.** Para Bourdieu, a trajetória é a sequência de posições
-  ocupadas por um agente num espaço que também se transforma. Os acontecimentos biográficos só
-  ganham sentido em relação ao espaço em que ocorrem. Fonte: Bourdieu, "A ilusão biográfica"
-  (conferir página no exemplar); comentário em Montagner (2007) (conferir página).
-- **Ilusão biográfica.** O relato de vida tende a dar coerência retrospectiva ao percurso, como
-  se ele seguisse um sentido prévio. Consequência metodológica: ler o relato **contra** a
-  sequência objetiva de posições, não como substituto dela.
-- **Trajetória objetiva × subjetiva (Dubar, 1998).** A objetiva é a sequência de posições medida
-  por categorias estatísticas; a subjetiva é o percurso como o sujeito o narra, com categorias
-  próprias. (Conferir página no artigo.)
+- **Trajetória como série de posições.** A trajetória descreve a série de posições ocupadas
+  sucessivamente por um agente ou grupo em estados sucessivos de um campo que também muda. Cada
+  ato só ganha sentido quando referido ao estado do campo em que ocorreu; os acontecimentos
+  biográficos são colocações e deslocamentos ligados à distribuição dos capitais (Montagner,
+  2007, p. 254-256, com base em Bourdieu, *Razões práticas* e *As regras da arte*, 1996 —
+  conferir no exemplar).
+- **Ilusão biográfica.** A coerência de uma vida é construída depois, pelo sujeito ou pelo
+  pesquisador, no momento do relato; é "uma ilusão biográfica muito comum no senso comum e no
+  senso comum científico" (Montagner, 2007, p. 252). Para evitá-la, situar os agentes no grupo e
+  reconstruir a trajetória nos campos (p. 253). Consequência: ler o relato **contra** a sequência
+  objetiva de posições, não como substituto dela.
+- **Trajetória objetiva × subjetiva (Dubar, 1998).** A objetiva é a sequência de posições sociais
+  do indivíduo ou da linhagem, medida por categorias estatísticas e resumida numa tendência
+  (ascendente, descendente, estável) (seção 2). A subjetiva é o enredo que a entrevista
+  biográfica põe em palavras, reconstruído pelo pesquisador por análise das categorias "nativas"
+  (seção 3). As duas análises devem ser feitas de modo autônomo e depois confrontadas, evitando
+  a "ilustração" (entrevistas que só exemplificam tipos estatísticos) e a "restituição"
+  (estatística só para escolher casos) (seção 4).
+- **Formas identitárias (Dubar, 1998).** Tipos ideais construídos a partir dos esquemas dos
+  relatos; na pesquisa dele não mostraram correlação forte com as classes de trajetória
+  objetiva, o que leva a pensar em dependências parciais, não em determinação mecânica (seções
+  3-4). São ferramentas provisórias, não essências. Na análise de conteúdo, pedem categorias
+  induzidas dos relatos.
+- **"Escolha" condicionada e trabalho (Zago, 2006).** Com 27 estudantes de origem popular
+  (p. 229), a escolha do curso foi antes uma adaptação às chances objetivas do que uma escolha:
+  "Para a grande maioria não existe verdadeiramente uma escolha, mas uma adaptação" (p. 232).
+  Todos trabalhavam desde o início do curso (p. 234); bolsas dentro da universidade davam horário
+  flexível e contato com a cultura acadêmica, enquanto o trabalho fora, pela "sobrevivência",
+  afastava de eventos e da vida da turma (p. 234-235). O pertencimento varia com a composição
+  social do curso (p. 235).
 - **Trajetória ascendente × descendente.** A direção da trajetória da família também pesa no
   investimento escolar (Nogueira; Nogueira, 2002, p. 25).
 - **Afiliação (Coulon).** Passar de aluno a estudante é aprender o "ofício de estudante". Três
@@ -56,6 +76,19 @@ permanência, porque abre acesso a bolsas (Ganam; Pinezi, 2021, p. 10).
 A divisão material/simbólica e os tempos de Coulon servem como categorias **a priori** na análise
 de conteúdo (ver `analise-conteudo-bardin.md`).
 
+### Procedimentos para material biográfico (Montagner, 2007)
+
+- Analisar o campo em três momentos: situá-lo na estrutura do poder, mapear as relações entre
+  posições e reconstruir os habitus coletivos (p. 253-254); depois sobrepor as trajetórias a essa
+  estrutura (p. 254).
+- Classificar os deslocamentos: intrageracionais (com reconversão de capital) e
+  intergeracionais (ascendentes, transversais ou nulos) (p. 256).
+- Preferir "famílias de trajetórias" a histórias individuais soltas (prosopografia), sabendo que
+  exige muito material documental (p. 258-259).
+- Saturação depende da construção prévia do objeto (p. 259).
+- Entrevista como escuta ativa e metódica (p. 260), ou entrevista focada com roteiro baseado em
+  informação prévia (p. 261).
+
 ### Por que ouvir concluintes
 
 Concluintes já percorreram a trajetória e conseguem atribuir sentido a ela (Ganam; Pinezi, 2021,
@@ -69,7 +102,8 @@ e Nogueira (2002).
 
 DUBAR, Claude. Trajetórias sociais e formas identitárias: alguns esclarecimentos conceituais e
 metodológicos. **Educação & Sociedade**, Campinas, v. 19, n. 62, p. 13-30, abr. 1998. DOI:
-10.1590/S0101-73301998000100002.
+10.1590/S0101-73301998000100002. (Lido na versão HTML do SciELO, sem paginação da revista: citar
+por seção ou conferir a página no PDF da revista.)
 
 ZAGO, Nadir. Do acesso à permanência no ensino superior: percursos de estudantes universitários
 de camadas populares. **Revista Brasileira de Educação**, Rio de Janeiro, v. 11, n. 32,
