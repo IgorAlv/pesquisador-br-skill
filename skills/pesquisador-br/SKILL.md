@@ -1,7 +1,7 @@
 ---
 name: pesquisador-br
 description: Pipeline completo de pesquisa acadêmica brasileira. Aciona quando o usuário menciona ABNT, TCC, dissertação, tese, artigo científico em português, Qualis CAPES, SciELO, Lattes, ou pede ajuda pra escrever, revisar ou estruturar trabalho acadêmico no padrão brasileiro. Esta é a skill principal — orquestra os 12 agentes especializados.
-version: 0.5.0
+version: 0.5.1
 language: pt-BR
 data_access_level: redacted
 task_type: open-ended

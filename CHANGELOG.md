@@ -6,6 +6,21 @@ O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/), e o
 
 ---
 
+## [0.5.1] — 2026-10-09
+
+### 📚 Páginas conferidas nos originais
+
+- `questionario.md`: Günther (2003) lido no original; referência completa e páginas de ordem das
+  perguntas, abertas × fechadas, Likert, redação, pré-teste e limites do autoaplicado.
+- `bourdieu-educacao.md`: campo, *illusio*, doxa e nomos com páginas de Thiry-Cherques (2006);
+  autonomia relativa do habitus; Zago (2006) contra leitura determinista; referências de
+  Montagner e Thiry-Cherques corrigidas.
+- `metodo-trajetoria.md`: trajetória e ilusão biográfica com páginas de Montagner (2007);
+  procedimentos para material biográfico; trajetória objetiva × subjetiva e formas identitárias
+  de Dubar (1998, por seção); "escolha" condicionada e trabalho em Zago (2006).
+
+---
+
 ## [0.5.0] — 2026-10-09
 
 ### ✨ Referências de teoria e método
