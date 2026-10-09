@@ -6,6 +6,24 @@ O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/), e o
 
 ---
 
+## [0.4.0] — 2026-10-09
+
+### ✨ Estilo sem cara de texto gerado e perfis de escrita
+
+- Nova referência `references/portugues-academico/estilo-anti-ia.md`: padrões associados a
+  texto gerado (certeza absoluta, binários "não X, mas Y", tríades, metáforas prontas),
+  como medir por seção, quebra de voz entre seções e conferência de contas.
+- Novos perfis em `references/portugues-academico/perfis/` (Igor Araújo Alves e Gilvando
+  Antônio da Silva). O perfil do autor prevalece sobre as regras gerais de estilo.
+- Modo `revision` passa a incluir revisão de estilo com tabela "antes → depois".
+
+### 🔧 Ajustes
+
+- `SKILL.md` e agente `escritor-rascunho`: conectivos cultos com moderação; "outrossim" e
+  "vale ressaltar" deixam de ser recomendados por padrão.
+
+---
+
 ## [0.3.0] — 2026-10-08
 
 ### ✨ Novas ferramentas do MCP `pesquisa` nas skills
